@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Fooleap Chen</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <style>
+	  #kindle {
+	    margin: 0 auto;
+	    width: 800px;
+	    height: 800px;
+	    background: url("kindle5.png") no-repeat;
+	  }
+      .main {
+		padding: 78px 204px 150px;
+        width: 322px;
+      }
+      header {
+		padding: 0 20px;
+        height: 24px;
+        -webkit-border-radius: 1px 1px 6px 6px;
+        -moz-border-radius: 1px 1px 6px 6px;
+        border-radius: 1px 1px 6px 6px;
+        background: url("top.gif") repeat-x;
+        color: #333;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 24px;
+        behavior: url(PIE.htc);
+      }
+      header img{
+        float:right;
+      }
+      section {
+        padding: 0 20px;
+        height: 376px;
+        font-size: 16px;
+        line-height: 38px;
+        behavior: url(PIE.htc);
+      }
+      section p {
+        text-indent: 2em;
+      }
+      section a {
+        color: #333;
+        text-decoration: none;
+      }
+      footer {
+        padding: 0 20px;
+        height: 22px;
+      }
+      #percent {
+        padding-left: 90px;
+        height: 9px;
+        font-size: 9px;
+        line-height: 9px;
+      }
+      #arrow {
+        margin-left: 90px;
+        width: 0;
+        height: 0;
+        border-top: 3px solid transparent;
+        border-top-color: #000;
+        border-right: 3px solid transparent;
+        border-bottom: 1px solid transparent;
+        border-left: 3px solid transparent;
+        line-height: 0;
+        _border: 3px solid #fff;
+      }
+
+      #progress {
+        height: 3px;
+        border: 1px solid #000;
+        -webkit-border-radius: 2px; 
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        behavior: url(PIE.htc);
+      }
+      #dot {
+        margin-left: 92px;
+        width: 1px;
+        height: 3px;
+        background-color: #000;
+      }
+    </style>
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div id="kindle">
+  <div class="main">
+  <header class="font-hei">Fooleap Chen<img src="battery.png" /></header>
+  <section class="font-kai">
+    <p>鄙人陈喜龙，生长于潮汕，现浪迹于杭城。</p>
+    <p>拖延症、强迫症患者，毕业至此已半年有余，幼时学习不力，顿觉现实残酷，因此正恶补英文、恶补编程。闲余喜欢喝茶、喜欢拍照、喜欢跑步、喜欢骑行。</p>
+    <p><a href="http://blog.fooleap.org/">小博</a>一个，记录点滴，常潜水于<a href="http://www.zhihu.com/people/fooleap">知乎</a>、<a href="http://v2ex.com/member/fooleap">V2EX</a>、<a href="http://ruby-china.org/fooleap">Ruby China</a> 等。</p>
+  </section>
+  <footer class="font-ming">
+    <div id="percent">33%</div>
+    <div id="arrow"></div>
+    <div id="progress">
+      <div id="dot"></div>
+    </div>
+  </footer>
+  </div>
+  </div>
+  </body>
+</html>
